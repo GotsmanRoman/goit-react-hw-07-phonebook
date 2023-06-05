@@ -1,6 +1,6 @@
 import { initialState } from './initialState';
 import { createSlice } from '@reduxjs/toolkit';
-import { getContacts, addContact, deleteContact } from '../API/API';
+import { getContacts, addContact, deleteContact } from '../components/API/API';
 
 export const contactsSlice = createSlice({
   name: 'phonebook',

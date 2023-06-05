@@ -24,7 +24,7 @@ const ContactForm = () => {
     const form = event.currentTarget;
     const name = form.elements.name.value;
     const phone = form.elements.number.value;
-    if (checkDuplicateName(phone) === true) {
+    if (checkDuplicateName(name) === true) {
       dispatch(addContact({ name, phone }));
       form.reset();
     } else {

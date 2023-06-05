@@ -4,7 +4,7 @@ import { Title, Input, Container } from './Filter.module';
 import { AiOutlineSearch } from 'react-icons/ai';
 
 import { useDispatch } from 'react-redux';
-import { filterContact } from '../store/filterSlice';
+import { filterContact } from '../../store/filterSlice';
 
 const Filter = () => {
   const dispatch = useDispatch();
